@@ -275,6 +275,10 @@
         <path d="M43.1178 20.3919H40.7844V22.7253H43.1178V20.3919Z" fill="#212121" />
 
       </symbol>
+      <symbol id="icon-sign-in" viewBox="0 0 24 24">
+        <path
+          d="M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z"/>
+      </symbol>
     </defs>
   </svg>
   <header class="menu container">
@@ -590,8 +594,10 @@
       <div class="sign-in-inline">
         <label><input type="text" value="E-mail" class="sign-in-input"></label>
         <button class="sign-in-btn" type="submit">
-          Zapisz się
-
+          <p>Zapisz się</p>
+          <svg class="send-icon">
+            <use xlink:href="#icon-sign-in"></use>
+          </svg>
         </button>
       </div>
     </section>
