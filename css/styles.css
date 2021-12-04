@@ -544,6 +544,36 @@ p {
 .join-us-section {
   padding-left: 100px;
 }
+.sign-in-section {
+  padding-left: 100px;
+}
+.sign-in-input {
+  width: 358px;
+  height: 50px;
+  padding: 25px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  background-color: #2f303a;
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+.sign-in-inline {
+  display: flex;
+  align-items: flex-start;
+}
+.sign-in-btn {
+  
+}
 .footer-icon-color {
   background: rgba(255, 255, 255, 0.1);
 }
