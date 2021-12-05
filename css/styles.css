@@ -685,3 +685,36 @@ p {
 
   color: #212121;
 }
+.name-label {
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  width: 448px;
+  height: 50px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+.name-label-svg {
+  padding: 8px;
+  height: 50px;
+  width: 50px;
+}
+.name-label-input {
+  width: 400px;
+  height: 48px;
+  border: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+.name-label:focus-within {
+  border: 1px solid #2196f3;
+  fill: #2196f3;
+}
+.name-label-input:focus {
+  border: none;
+}
